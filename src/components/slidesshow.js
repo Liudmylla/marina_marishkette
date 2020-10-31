@@ -45,7 +45,7 @@ const SlideShow = () => {
     return (
         
            <> 
-             <h1 style={{textAlign:"center",padding:"1rem",fontWeight:"bold"}}>Have a look at my back stage photos to see how it's going on</h1>
+             <h1 style={{textAlign:"center",padding:"1rem",fontWeight:"bold"}}>Have a look at my back stage photos</h1>
             <Img
                 style={{ width: "100%", height: "100" }}
                 fluid={images[index].node.childImageSharp.fluid}

@@ -41,7 +41,7 @@ class Index extends React.Component {
 
         <div id="main">
           <section id="intro" className="main special">
-             <h2>I love to make video for you</h2> 
+             {/* <h2>I love to make video for you</h2>  */}
            <VideoPlayer></VideoPlayer>
             </section>
 
@@ -88,7 +88,7 @@ class Index extends React.Component {
 
           <section id="second" className="main special">
             <header className="major">
-              <h2>Back-stage photos</h2>
+              {/* <h2>Back-stage photos</h2> */}
             </header>
           <SlideShow></SlideShow>
           </section>

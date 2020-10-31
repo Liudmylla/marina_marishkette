@@ -66,7 +66,14 @@ const Footer = props => (
       </ul>
     </section>
     <p className="copyright">
-      &copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.
+      2020 Made with love and Gatsby: <a href="https://www.linkedin.com/in/liudmyla-duvivier-05570b15a/">Liudmylla</a>.
+      <a
+        href="https://github.com/liudmylla/marina_marishkette"
+        className="icon fa-github alt"
+        target="_blanck"
+      >
+        <span className="label">GitHub</span>
+      </a>
     </p>
   </footer>
 )
