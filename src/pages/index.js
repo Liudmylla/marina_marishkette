@@ -52,26 +52,23 @@ class Index extends React.Component {
             <ul className="features">
               <li>
                 <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
+                <h3>Family</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Let's create lovely video about you and your family.
                 </p>
               </li>
               <li>
                 <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
+                <h3>Business</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Let's create professional video about your business.
                 </p>
               </li>
               <li>
                 <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
+                <h3>Events</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Let's create unforgetable video about some special day of your life.
                 </p>
               </li>
             </ul>
