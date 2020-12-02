@@ -14,7 +14,7 @@
 
 	header {
 		&.major {
-			margin-bottom: (_size(element-margin) * 1.5);
+			// margin-bottom: (_size(element-margin) * 1.5);
 
 			h2 {
 				font-size: 2em;
@@ -24,7 +24,7 @@
 					content: '';
 					width: 3.25em;
 					height: 2px;
-					margin: (_size(element-margin) * 0.35) 0 (_size(element-margin) * 0.5) 0;
+					// margin: (_size(element-margin) * 0.35) 0 (_size(element-margin) * 0.5) 0;
 					border-radius: 2px;
 
 					section.special &, article.special & {

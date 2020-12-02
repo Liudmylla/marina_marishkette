@@ -2,13 +2,14 @@ import { Link } from 'gatsby'
 import React from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
-import pic01 from '../assets/images/pic01.jpg'
+import about from '../assets/images/about.jpg'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
 import ContactForm from '../components/ContactForm'
-import VideoPlayer from '../components/VideoPlayer'
+//import VideoPlayer from '../components/VideoPlayer'
 import SlideShow from '../components/slidesshow'
+import banner from '../assets/images/banner.jpg'
 
 class Index extends React.Component {
   constructor(props) {
@@ -40,14 +41,35 @@ class Index extends React.Component {
         <Nav sticky={this.state.stickyNav} />
 
         <div id="main">
-          <section id="intro" className="main special">
-             {/* <h2>I love to make video for you</h2>  */}
-           <VideoPlayer></VideoPlayer>
-            </section>
+        <section id="intro" className="main">
+            <div className="spotlight">
+              <div className="content">
+                <header className="major">
+                  <h2>Ipsum sed adipiscing</h2>
+                </header>
+                <p>
+                  Sed lorem ipsum dolor sit amet nullam consequat feugiat
+                  consequat magna adipiscing magna etiam amet veroeros. Lorem
+                  ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem
+                  ipsum dolor sit amet aliquam.
+                </p>
+                <ul className="actions">
+                  <li>
+                    <Link to="/generic" className="button">
+                      Learn More
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+              <span className="image">
+                <img src={about} alt="" />
+              </span>
+            </div>
+          </section>
 
           <section id="first" className="main special">
             <header className="major">
-              <h2>Marina Marishkette</h2>
+              <h2>Lessia</h2>
             </header>
             <ul className="features">
               <li>
