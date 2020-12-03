@@ -5,7 +5,32 @@
 ///
 
 /* Icon */
+ .imgservices{
+	display: block;
+	border-radius: 100%;
+	width: 16em;
+	&.major {
+		border: dotted 1px;
+		display: inline-block;
+		border-radius: 100%;
+		padding: 0.65em;
+		margin: 0 0 _size(element-margin) 0;
+		cursor: default;
+		
 
+		&:before {
+			display: inline-block;
+			font-size: 6.25rem;
+			width: 2.25em;
+			height: 2.25em;
+			line-height: 2.2em;
+			border-radius: 100%;
+			border: dotted 1px;
+			text-align: center;
+		}
+	}
+	
+ }
 	.icon {
 		@include icon;
 		@include vendor('transition', (
@@ -14,11 +39,13 @@
 		));
 		border-bottom: none;
 		position: relative;
+	
 
 		> .label {
 			display: none;
 		}
-
+		
+		
 		&.major {
 			border: solid 1px;
 			display: inline-block;
@@ -26,6 +53,7 @@
 			padding: 0.65em;
 			margin: 0 0 _size(element-margin) 0;
 			cursor: default;
+			
 
 			&:before {
 				display: inline-block;

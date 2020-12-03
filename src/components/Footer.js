@@ -4,65 +4,51 @@ import React from 'react'
 const Footer = props => (
   <footer id="footer">
     <section>
-      <h2>Aliquam sed mauris</h2>
+      <h2>Espace esthétique</h2>
       <p>
-        Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat
-        magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras
-        aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae
-        tincidunt odio.
+       Aprés 10 ans d'experience,j'ouvre mon cabinet d'esthétique et de maquillage permanent.<br/>
+       Toutes mes prestations ont été testées sur moi-même pour vous présenter le meilleur.
       </p>
       <ul className="actions">
         <li>
           <Link to="/generic" className="button">
-            Learn More
+            Voir plus
           </Link>
         </li>
       </ul>
     </section>
     <section>
-      <h2>Etiam feugiat</h2>
+      <h2>Lessia</h2>
       <dl className="alt">
-        <dt>Address</dt>
-        <dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
+        <dt>Adresse</dt>
+        <dd>69 avenue de l'Adour 64600 Anglet</dd>
         <dt>Phone</dt>
-        <dd>(000) 000-0000 x 0000</dd>
-        <dt>Email</dt>
+        <dd>06-40-57-99-17</dd>
+        {/* <dt>Email</dt>
         <dd>
           <a href="https://codebushi.com">information@untitled.tld</a>
-        </dd>
+        </dd> */}
       </dl>
       <ul className="icons">
-        <li>
+        {/* <li>
           <a
             href="https://twitter.com/huntaroSan"
             className="icon fa-twitter alt"
           >
             <span className="label">Twitter</span>
           </a>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <a href="https://codebushi.com" className="icon fa-facebook alt">
             <span className="label">Facebook</span>
           </a>
-        </li>
+        </li> */}
         <li>
-          <a href="https://codebushi.com" className="icon fa-instagram alt">
+          <a href="https://www.instagram.com/esthetique_beaute_64/" className="icon fa-instagram alt">
             <span className="label">Instagram</span>
           </a>
         </li>
-        <li>
-          <a
-            href="https://github.com/codebushi/gatsby-starter-stellar"
-            className="icon fa-github alt"
-          >
-            <span className="label">GitHub</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://codebushi.com" className="icon fa-dribbble alt">
-            <span className="label">Dribbble</span>
-          </a>
-        </li>
+   
       </ul>
     </section>
     <p className="copyright">

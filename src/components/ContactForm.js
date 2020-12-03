@@ -26,7 +26,7 @@ class ContactForm extends React.Component {
                 </div>
                 <ul className="actions" style={buttonsStyle}>
                     <li>
-                        <button type="submit" className="button special">Send</button>
+                        <button type="submit" className="button special">Envoyer</button>
                     </li>
                 </ul>
             </form>
