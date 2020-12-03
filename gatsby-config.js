@@ -1,21 +1,21 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Stellar by HTML5 UP",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Stellar by HTML5 UP"
+    title: "Esthetique_beaute_64",
+    author: "Liudmyla Duvivier",
+    description: "Site pour estetique_beaute_64 "
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'estetique_beaute_64',
+        short_name: 'lessia',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
+        icon: 'src/assets/images/lessia.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',
