@@ -16,7 +16,7 @@ import soinsVisage from '../assets/images/soinsVisage.jpg'
 import volume from '../assets/images/volume.jpg'
 import epilations from '../assets/images/epilations.jpg'
 import levres from '../assets/images/levres.jpg'
-import prix from '../assets/images/prix.jpg'
+
 
 class Index extends React.Component {
   constructor(props) {

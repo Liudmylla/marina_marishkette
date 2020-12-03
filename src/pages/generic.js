@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import HeaderGeneric from '../components/HeaderGeneric'
-import prix from '../assets/images/prix.jpg'
+
 
 class Generic extends React.Component {
   render() {
@@ -14,7 +14,7 @@ class Generic extends React.Component {
         <HeaderGeneric />
         <div id="main">
           <section id="content" className="main">
-            <span className="image main"><img src={prix} alt="" /></span>
+            <span className="image main"><img src="https://res.cloudinary.com/di4iku1b9/image/upload/v1607036191/prix_rmkgfp.jpg" alt="" /></span>
        
            <h1>Prenez votre rendez-vous: 06-40-57-99-17</h1>
            <h1>69 avenue de l'Adour 64600 Anglet </h1>
