@@ -10,12 +10,14 @@ import ContactForm from '../components/ContactForm'
 //import VideoPlayer from '../components/VideoPlayer'
 import SlideShow from '../components/slidesshow'
 import banner from '../assets/images/banner.jpg'
-import permanent from '../assets/images/img0.jpg'
+import permanent from '../assets/images/sourcil1.jpg'
 import soins from '../assets/images/soins.jpg'
 import soinsVisage from '../assets/images/soinsVisage.jpg'
 import volume from '../assets/images/volume.jpg'
 import epilations from '../assets/images/epilations.jpg'
-import levres from '../assets/images/levres.jpg'
+import levres from '../assets/images/levres1.jpg'
+import picto from '../assets/images/picto.jpg'
+import picto1 from '../assets/images/picto1.jpg'
 
 
 class Index extends React.Component {
@@ -56,19 +58,19 @@ class Index extends React.Component {
                 </header>
                 <p>
                 Infirmière de formation, les bases medicales ont toujours cadré mon travail esthétique dans les établissements suivants :<br/>
-                ✅Dessange
-                ✅Spa ***** Ramatuelle 
-                ✅Grand hôtel à Saint-Jean-de-Luz
-                ✅Institut parfumerie à Biarritz
-                ✅Institut à Anglet
+                <img src={picto1} alt="" /> Dessange<br/>
+                <img src={picto1} alt="" /> Spa ***** Ramatuelle <br/>
+                <img src={picto1} alt="" /> Grand hôtel à Saint-Jean-de-Luz<br/>
+                <img src={picto1} alt="" /> Institut parfumerie à Biarritz<br/>
+                <img src={picto1} alt="" /> Institut à Anglet
                 </p>
-                 <ul className="actions">
+                 {/* <ul className="actions">
                   <li>
                     <Link to="/generic" className="button">
                       Voir plus
                     </Link>
                   </li>
-                </ul> 
+                </ul>  */}
               </div>
               <span className="image">
                 <img src={about} alt="" />
@@ -106,8 +108,8 @@ class Index extends React.Component {
                 <img className="major imgservices" src={soins} alt="" />
              
                 <p>
-                ✅Tout d'abord, mes nettoyages des visages sont réalisés avec les gants et le masque pour moi (avec ou sans Covid-19).<br/>
-                ✅ Je vous conseille d'effectuer un nettoyage tous les 6 mois: un avant l'ete pour booster la peau,
+                <img src={picto1} alt="" /> Tout d'abord, mes nettoyages des visages sont réalisés avec les gants et le masque pour moi (avec ou sans Covid-19).<br/>
+                <img src={picto1} alt="" />  Je vous conseille d'effectuer un nettoyage tous les 6 mois: un avant l'ete pour booster la peau,
                 desincruster les pores et rafraichir le visage et un après l’été car la creme solaire bloque les pores du visage.
                 </p>
               </li>
@@ -143,7 +145,7 @@ class Index extends React.Component {
               <ul className="actions">
                 <li>
                   <Link to="/generic" className="button">
-                    Prix
+                    Voir plus
                   </Link>
                 </li>
               </ul>
