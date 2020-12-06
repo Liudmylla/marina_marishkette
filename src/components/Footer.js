@@ -11,7 +11,7 @@ const Footer = props => (
       </p>
       <ul className="actions">
         <li>
-          <Link to="/generic" className="button">
+          <Link to="/prix" className="button">
             Voir plus
           </Link>
         </li>
@@ -24,10 +24,10 @@ const Footer = props => (
         <dd>69 avenue de l'Adour 64600 Anglet</dd>
         <dt>Phone</dt>
         <dd>06-40-57-99-17</dd>
-        {/* <dt>Email</dt>
+        <dt>Email</dt>
         <dd>
-          <a href="https://codebushi.com">information@untitled.tld</a>
-        </dd> */}
+          <a href="mailto:lesia.khorishko@gmail.com">lesia.khorishko@gmail.com</a>
+        </dd>
       </dl>
       <ul className="icons">
         {/* <li>
@@ -44,7 +44,7 @@ const Footer = props => (
           </a>
         </li> */}
         <li>
-          <a href="https://www.instagram.com/esthetique_beaute_64/" className="icon fa-instagram alt">
+          <a href="https://www.instagram.com/esthetique_beaute_64/" className="icon fa-instagram alt" target="_blanck">
             <span className="label">Instagram</span>
           </a>
         </li>
@@ -52,14 +52,14 @@ const Footer = props => (
       </ul>
     </section>
     <p className="copyright">
-      2020 Made with love and Gatsby: <a href="https://www.linkedin.com/in/liudmyla-duvivier-05570b15a/">Liudmylla</a>.
-      <a
+      2020 Made with love and Gatsby: <a href="https://ludmyladev.gtsb.io/" target="_blanck">Ludmyla</a>.
+      {/* <a
         href="https://github.com/liudmylla/marina_marishkette"
         className="icon fa-github alt"
         target="_blanck"
       >
         <span className="label">GitHub</span>
-      </a>
+      </a> */}
     </p>
   </footer>
 )

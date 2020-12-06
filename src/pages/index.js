@@ -7,16 +7,13 @@ import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
 import ContactForm from '../components/ContactForm'
-//import VideoPlayer from '../components/VideoPlayer'
 import SlideShow from '../components/slidesshow'
-import banner from '../assets/images/banner.jpg'
 import permanent from '../assets/images/sourcil1.jpg'
 import soins from '../assets/images/soins.jpg'
 import soinsVisage from '../assets/images/soinsVisage.jpg'
 import volume from '../assets/images/volume.jpg'
 import epilations from '../assets/images/epilations.jpg'
 import levres from '../assets/images/levres1.jpg'
-import picto from '../assets/images/picto.jpg'
 import picto1 from '../assets/images/picto1.jpg'
 
 
@@ -39,7 +36,7 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="Lessia" />
+        <Helmet title="Lessia - maquillage permanent: les sourcils et les levres à 64" />
 
         <Header />
 
@@ -54,7 +51,7 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Je suis Lessia,esthéticienne depuis 10 ans.</h2>
+                  <h2>Je suis Lessia, esthéticienne depuis 10 ans.</h2>
                 </header>
                 <p>
                 Infirmière de formation, les bases medicales ont toujours cadré mon travail esthétique dans les établissements suivants :<br/>
@@ -64,6 +61,7 @@ class Index extends React.Component {
                 <img src={picto1} alt="" /> Institut parfumerie à Biarritz<br/>
                 <img src={picto1} alt="" /> Institut à Anglet
                 </p>
+               
                  {/* <ul className="actions">
                   <li>
                     <Link to="/generic" className="button">
@@ -81,6 +79,8 @@ class Index extends React.Component {
           <section id="first" className="main special">
             <header className="major">
               <h2>Prestations</h2>
+              <h2>Les réponses à vos questions et le prix définitif feront l'objet d'un prèmier rendez-vous gratuit.</h2>
+                <p>Tel: 06-40-57-99-17</p>
             </header>
             <ul className="features">
               <li>
@@ -88,9 +88,9 @@ class Index extends React.Component {
                 <img className="major imgservices" src={permanent} alt="" />
               
                 <p>
-                Il s'agit d'implanter un pigment sous les couches superficielles de la peau à l'aide d'une aiguille afin de créer un ombrage.<br/>
-                Après une restructuration, la conjugaison d’un maquillage permanent sur les zones clairsemées donnera à votre sourcil une ligne parfaite.<br/>
-                La méthode du microshading (ombrage) nous permet d'avoir un résultat naturel et fondu.
+                <img src={picto1} alt="" /> Il s'agit d'implanter un pigment sous les couches superficielles de la peau à l'aide d'une aiguille afin de créer un ombrage.<br/>
+                <img src={picto1} alt="" /> Après une restructuration, la conjugaison d’un maquillage permanent sur les zones clairsemées donnera à votre sourcil une ligne parfaite.<br/>
+                <img src={picto1} alt="" /> La méthode du microshading (ombrage) nous permet d'avoir un résultat naturel et fondu.
                 </p>
               </li>
               <li>
@@ -98,9 +98,9 @@ class Index extends React.Component {
                 <img className="major imgservices" src={levres} alt="" />
                
                 <p>
-                Il s'agit d'implanter un pigment sous les couches superficielles de la peau à l'aide d'une aiguille afin de créer un ombrage.<br/>
-                Après une restructuration, la conjugaison d’un maquillage permanent sur les zones clairsemées donnera à vos levres une ligne parfaite.<br/>
-                La méthode du microshading (ombrage) nous permet d'avoir un résultat naturel et fondu.
+                <img src={picto1} alt="" />Il s'agit d'implanter un pigment sous les couches superficielles de la peau à l'aide d'une aiguille afin de créer un ombrage.<br/>
+                <img src={picto1} alt="" /> Après une restructuration, la conjugaison d’un maquillage permanent sur les zones clairsemées donnera à vos levres une ligne parfaite.<br/>
+                <img src={picto1} alt="" />La méthode du microshading (ombrage) nous permet d'avoir un résultat naturel et fondu.
                 </p>
               </li>
               <li>
@@ -118,7 +118,7 @@ class Index extends React.Component {
                 <img className="major imgservices" src={soinsVisage} alt="" />
               
                 <p>
-                Nettoyage du visage avec une masque d’argile purifiant
+                <img src={picto1} alt="" /> Nettoyage du visage avec une masque d’argile purifiant
                 </p>
               </li>
               <li>
@@ -127,7 +127,7 @@ class Index extends React.Component {
                 
                 <p>
                
-                Cette technique d'épilation est très efficace puisque la cire chaude dilate les pores de la peau, ce qui permet de capturer les poils dans leur intégralité et de faciliter leur extraction. 
+                <img src={picto1} alt="" /> Cette technique d'épilation est très efficace puisque la cire chaude dilate les pores de la peau, ce qui permet de capturer les poils dans leur intégralité et de faciliter leur extraction. 
                  
                 </p>
               </li>
@@ -136,7 +136,7 @@ class Index extends React.Component {
                 <img className="major imgservices" src={volume} alt="" />
                
                 <p>
-                Dans le cas de l'extension des clis 2d je pose plusieurs extensions associées entre elles sur un même cil pour un volume plus spectaculair.
+                <img src={picto1} alt="" /> Dans le cas de l'extension des clis 2d je pose plusieurs extensions associées entre elles sur un même cil pour un volume plus spectaculair.
                 </p>
               </li>
              
@@ -144,7 +144,7 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <Link to="/generic" className="button">
+                  <Link to="/prix" className="button">
                     Voir plus
                   </Link>
                 </li>

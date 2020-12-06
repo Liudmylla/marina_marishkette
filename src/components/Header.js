@@ -11,7 +11,10 @@ const Header = (props) => (
         <p>69 avenue de l'Adour 64600 Anglet</p>
      
     <a href="https://www.instagram.com/esthetique_beaute_64/"><span className="instagram"><img src={instagram} alt="" /></span></a> */}
-        
+
+ <a href="https://www.instagram.com/esthetique_beaute_64/" target="_blanck"><span className="instagram"><img src={instagram} alt="" /></span></a>
+
+ {/* <h2>06-40-57-99-17</h2> */}
     </header>
 )
 

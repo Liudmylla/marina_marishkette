@@ -13,11 +13,11 @@ class ContactForm extends React.Component {
         return (
             <form style={formStyle} className="form" action={this.props.action} method="post">
                 <div>
-                    <label>Full name</label>
+                    <label>Nom</label>
                     <input type="text" name="fullname" />
                 </div>
                 <div>
-                    <label>Email</label>
+                    <label>E-mail</label>
                     <input type="email" name="email" />
                 </div>
                 <div>
