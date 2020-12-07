@@ -14,7 +14,7 @@ import soinsVisage from '../assets/images/soinsVisage.jpg'
 import volume from '../assets/images/volume.jpg'
 import epilations from '../assets/images/epilations.jpg'
 import levres from '../assets/images/levres1.jpg'
-import picto1 from '../assets/images/picto1.jpg'
+import picto from '../assets/images/picto2.jpg'
 
 
 class Index extends React.Component {
@@ -36,8 +36,9 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="Lessia - maquillage permanent: les sourcils et les levres à 64" />
-
+        <Helmet title="Lessia - maquillage permanent: les sourcils et les levres à 64" >
+        <meta name="google-site-verification" content="_Mo7ev5Amr7hByiexPOsyjRvPqbHUUQE15M0u2rBLhE" />
+        </Helmet>
         <Header />
 
         <Waypoint
@@ -55,11 +56,11 @@ class Index extends React.Component {
                 </header>
                 <p>
                 Infirmière de formation, les bases medicales ont toujours cadré mon travail esthétique dans les établissements suivants :<br/>
-                <img src={picto1} alt="" /> Dessange<br/>
-                <img src={picto1} alt="" /> Spa ***** Ramatuelle <br/>
-                <img src={picto1} alt="" /> Grand hôtel à Saint-Jean-de-Luz<br/>
-                <img src={picto1} alt="" /> Institut parfumerie à Biarritz<br/>
-                <img src={picto1} alt="" /> Institut à Anglet
+                <img src={picto} alt="" /> Dessange<br/>
+                <img src={picto} alt="" /> Spa ***** Ramatuelle <br/>
+                <img src={picto} alt="" /> Grand hôtel à Saint-Jean-de-Luz<br/>
+                <img src={picto} alt="" /> Institut parfumerie à Biarritz<br/>
+                <img src={picto} alt="" /> Institut à Anglet
                 </p>
                
                  {/* <ul className="actions">
@@ -88,9 +89,9 @@ class Index extends React.Component {
                 <img className="major imgservices" src={permanent} alt="" />
               
                 <p>
-                <img src={picto1} alt="" /> Il s'agit d'implanter un pigment sous les couches superficielles de la peau à l'aide d'une aiguille afin de créer un ombrage.<br/>
-                <img src={picto1} alt="" /> Après une restructuration, la conjugaison d’un maquillage permanent sur les zones clairsemées donnera à votre sourcil une ligne parfaite.<br/>
-                <img src={picto1} alt="" /> La méthode du microshading (ombrage) nous permet d'avoir un résultat naturel et fondu.
+                <img src={picto} alt="" /> Il s'agit d'implanter un pigment sous les couches superficielles de la peau à l'aide d'une aiguille afin de créer un ombrage.<br/>
+                <img src={picto} alt="" /> Après une restructuration, la conjugaison d’un maquillage permanent sur les zones clairsemées donnera à votre sourcil une ligne parfaite.<br/>
+                <img src={picto} alt="" /> La méthode du microshading (ombrage) nous permet d'avoir un résultat naturel et fondu.
                 </p>
               </li>
               <li>
@@ -98,9 +99,9 @@ class Index extends React.Component {
                 <img className="major imgservices" src={levres} alt="" />
                
                 <p>
-                <img src={picto1} alt="" />Il s'agit d'implanter un pigment sous les couches superficielles de la peau à l'aide d'une aiguille afin de créer un ombrage.<br/>
-                <img src={picto1} alt="" /> Après une restructuration, la conjugaison d’un maquillage permanent sur les zones clairsemées donnera à vos levres une ligne parfaite.<br/>
-                <img src={picto1} alt="" />La méthode du microshading (ombrage) nous permet d'avoir un résultat naturel et fondu.
+                <img src={picto} alt="" />Il s'agit d'implanter un pigment sous les couches superficielles de la peau à l'aide d'une aiguille afin de créer un ombrage.<br/>
+                <img src={picto} alt="" /> Après une restructuration, la conjugaison d’un maquillage permanent sur les zones clairsemées donnera à vos levres une ligne parfaite.<br/>
+                <img src={picto} alt="" />La méthode du microshading (ombrage) nous permet d'avoir un résultat naturel et fondu.
                 </p>
               </li>
               <li>
@@ -108,8 +109,8 @@ class Index extends React.Component {
                 <img className="major imgservices" src={soins} alt="" />
              
                 <p>
-                <img src={picto1} alt="" /> Tout d'abord, mes nettoyages des visages sont réalisés avec les gants et le masque pour moi (avec ou sans Covid-19).<br/>
-                <img src={picto1} alt="" />  Je vous conseille d'effectuer un nettoyage tous les 6 mois: un avant l'ete pour booster la peau,
+                <img src={picto} alt="" /> Tout d'abord, mes nettoyages des visages sont réalisés avec les gants et le masque pour moi (avec ou sans Covid-19).<br/>
+                <img src={picto} alt="" />  Je vous conseille d'effectuer un nettoyage tous les 6 mois: un avant l'ete pour booster la peau,
                 desincruster les pores et rafraichir le visage et un après l’été car la creme solaire bloque les pores du visage.
                 </p>
               </li>
@@ -118,7 +119,7 @@ class Index extends React.Component {
                 <img className="major imgservices" src={soinsVisage} alt="" />
               
                 <p>
-                <img src={picto1} alt="" /> Nettoyage du visage avec une masque d’argile purifiant
+                <img src={picto} alt="" /> Nettoyage du visage avec une masque d’argile purifiant
                 </p>
               </li>
               <li>
@@ -127,7 +128,7 @@ class Index extends React.Component {
                 
                 <p>
                
-                <img src={picto1} alt="" /> Cette technique d'épilation est très efficace puisque la cire chaude dilate les pores de la peau, ce qui permet de capturer les poils dans leur intégralité et de faciliter leur extraction. 
+                <img src={picto} alt="" /> Cette technique d'épilation est très efficace puisque la cire chaude dilate les pores de la peau, ce qui permet de capturer les poils dans leur intégralité et de faciliter leur extraction. 
                  
                 </p>
               </li>
@@ -136,7 +137,7 @@ class Index extends React.Component {
                 <img className="major imgservices" src={volume} alt="" />
                
                 <p>
-                <img src={picto1} alt="" /> Dans le cas de l'extension des clis 2d je pose plusieurs extensions associées entre elles sur un même cil pour un volume plus spectaculair.
+                <img src={picto} alt="" /> Dans le cas de l'extension des clis 2d je pose plusieurs extensions associées entre elles sur un même cil pour un volume plus spectaculair.
                 </p>
               </li>
              
