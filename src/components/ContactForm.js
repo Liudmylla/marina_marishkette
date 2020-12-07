@@ -11,7 +11,7 @@ class ContactForm extends React.Component {
             textAlign: 'center',
         }
         return (
-            <form style={formStyle} className="form" action={this.props.action} method="post">
+            <form style={formStyle} className="form" action="https://formspree.io/f/mjvpakoa" method="post">
                 <div>
                     <label>Nom</label>
                     <input type="text" name="fullname" />
