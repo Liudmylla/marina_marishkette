@@ -6,8 +6,11 @@ const Footer = props => (
     <section>
       <h2>Espace esthétique</h2>
       <p>
-       Aprés 10 ans d'experience,j'ouvre mon cabinet d'esthétique et de maquillage permanent.<br/>
-       Toutes mes prestations ont été testées sur moi-même pour vous présenter le meilleur.
+        Aprés 10 ans d'experience,j'ouvre mon cabinet d'esthétique et de
+        maquillage permanent.
+        <br />
+        Toutes mes prestations ont été testées sur moi-même pour vous présenter
+        le meilleur.
       </p>
       <ul className="actions">
         <li>
@@ -21,12 +24,14 @@ const Footer = props => (
       <h2>Lessia</h2>
       <dl className="alt">
         <dt>Adresse</dt>
-        <dd>69 avenue de l'Adour 64600 Anglet</dd>
+        <dd>29 AV de Bayonne, 64600 Angle</dd>
         <dt>Phone</dt>
         <dd>06-40-57-99-17</dd>
         <dt>Email</dt>
         <dd>
-          <a href="mailto:lesia.khorishko@gmail.com">lesia.khorishko@gmail.com</a>
+          <a href="mailto:lesia.khorishko@gmail.com">
+            lesia.khorishko@gmail.com
+          </a>
         </dd>
       </dl>
       <ul className="icons">
@@ -44,15 +49,22 @@ const Footer = props => (
           </a>
         </li> */}
         <li>
-          <a href="https://www.instagram.com/esthetique_beaute_64/" className="icon fa-instagram alt" target="_blanck">
+          <a
+            href="https://www.instagram.com/esthetique_beaute_64/"
+            className="icon fa-instagram alt"
+            target="_blanck"
+          >
             <span className="label">Instagram</span>
           </a>
         </li>
-   
       </ul>
     </section>
     <p className="copyright">
-      2020 Made with love and Gatsby: <a href="https://ludmyladev.gtsb.io/" target="_blanck">Ludmyla</a>.
+      2020 Made with love and Gatsby:{' '}
+      <a href="https://ludmyladev.gtsb.io/" target="_blanck">
+        Ludmyla
+      </a>
+      .
       {/* <a
         href="https://github.com/liudmylla/marina_marishkette"
         className="icon fa-github alt"
